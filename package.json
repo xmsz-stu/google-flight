@@ -1,13 +1,22 @@
 {
   "name": "google-flight",
   "version": "1.0.0",
-  "description": "",
+  "description": "High-performance Google Flights scrapers and API. Built with Playwright and Bun, supporting real-time flight data extraction (XMN, IST, SFO...). Easy-to-use RESTful API with automated tfs parameter generation.",
   "main": "index.js",
   "scripts": {
+    "dev": "bun --hot index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "google-flights-scraper",
+    "google-flights-api",
+    "flight-scrapers",
+    "playwright-crawler",
+    "airline-tickets-data",
+    "bun-hono-api",
+    "real-time-travel-data"
+  ],
+  "author": "xmsz",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
