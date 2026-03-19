@@ -1,0 +1,23 @@
+{
+  "name": "google-flight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "hono": "^4.12.8",
+    "p-limit": "^7.3.0",
+    "playwright": "^1.58.2",
+    "protobufjs": "^8.0.0"
+  },
+  "trustedDependencies": [
+    "protobufjs"
+  ]
+}
